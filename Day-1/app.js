@@ -21,7 +21,7 @@ console.log(Math.trunc(Math.random() * 9000 + 1000))
 
 //  Q 1. calculate compound interest using formula A = P(1 + r/n)^(nt) - P 
 
-var prompt = require("prompt-sync")()
+let prompt = require("prompt-sync")()
 
 let p = prompt("Enter principal ")
 let r = prompt("Enter rate ")
@@ -44,10 +44,8 @@ console.log(a , b);
 [a, b] = [b, a]
 console.log(a , b);
 
-
+// Conditional statements in JavaScript
 // Q 3. Check if a person is eligible to vote or not
-
-var prompt = require("prompt-sync")()
 
 let age = Number(prompt("Enter your age "))
 
@@ -63,7 +61,6 @@ else{
 
 // Q 4. Calculate the discount based on the amount entered by the user.
 
-var prompt = require("prompt-sync")()
 let amount = Number(prompt("Enter amount "))
 
 let discount = 0;
@@ -76,3 +73,10 @@ else discount = 20;
 console.log("Discount: " + discount + "%")
 console.log("payable amount " + (amount - (discount*amount/100)))
 
+
+// Nested ternary operator in JavaScript
+// Q 5. Check if a number is positive, negative or zero using nested ternary operator.
+
+let num = Number(prompt("Enter a number "))
+
+console.log( num>0 ? "positive" : num<0 ? "negative" : "zero");
