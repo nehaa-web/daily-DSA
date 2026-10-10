@@ -1,4 +1,4 @@
-                                            //  Loops
+                                            // For Loop
 // Switch Case Statement
 // Q:6 Using Switch (Check consonants and vowels in a string)
 
@@ -24,7 +24,7 @@ console.log("consonants: " + consonants);
 console.log("vowels: " + vowels);
 
 
-// Q:7 Print multiplication table of a number using for loop
+// Q:7 Print multiplication table of a number 
 
 var n = Number(prompt('Enter a number: '));
 
@@ -33,7 +33,7 @@ for( let i = 1 ; i <= 10 ; i++){
 }
 
 
-// Q:8 Sum up to n natural numbers using for loop
+// Q:8 Sum up to n natural numbers 
 
 var n = Number(prompt('Enter a number: '));
 
@@ -45,7 +45,7 @@ for( let i = 1 ; i <= n ; i++){
 console.log("Sum of first " + n + " natural numbers is: " + sum);
 
 
-// Q: 9 Sum of even and odd numbers between two numbers using for loop
+// Q: 9 Sum of even and odd numbers between two numbers 
 
 let a = Number(prompt('Enter first number: '));
 let b = Number(prompt('Enter second number: '));
@@ -67,7 +67,7 @@ for( let i=a ; i<=b ; i++){
 console.log("even sum = " + evenSum);
 console.log("odd sum = " + oddSum);
 
-// Q:10 Check whether a number is prime or not using for loop
+// Q:10 Check whether a number is prime or not 
 
 var n = Number(prompt('Enter a number: '));
 
